@@ -1,4 +1,5 @@
 /// Ticking Clock Hands ///
+/// Apply to: { Rotation } ///
 // Define the interval in seconds for each tick
 var interval = 1; // Change this to your desired interval
 
