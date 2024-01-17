@@ -1,0 +1,11 @@
+/// Ticking Clock Hands ///
+// Define the interval in seconds for each tick
+var interval = 1; // Change this to your desired interval
+
+// Calculate the number of ticks based on the current time
+var ticks = Math.floor(time / interval);
+
+// Rotate one degree per tick
+var degreesPerTick = 5;
+rotation = ticks * degreesPerTick;
+
