@@ -30,9 +30,9 @@
 
 ### Transform one shape layer made of multiple unsplit groups
 
-- when you import a shape layer made of multiple groups (using overlord)\
-- wait to ESL them. First, transform how you want all groups to behave\
-- then, ESL. BLAMMO! They all have the same transform applied respectively :D
+-when you import a shape layer made of multiple groups (using overlord)\
+-wait to ESL them. First, transform how you want all groups to behave\
+-then, ESL. BLAMMO! They all have the same transform applied respectively :D
 
 ---
 
