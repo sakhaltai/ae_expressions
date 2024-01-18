@@ -41,4 +41,4 @@ alternatively, for already-explode shape layers, use ESL merge SLs, transform as
 [Markdown Formatting Guide](https://www.markdownguide.org/cheat-sheet/)
 (for Nic cuz lol he's no dev yet)\
 
----
+<script src='https://cdn.jsdelivr.net/gh/eddymens/markdown-external-link-script@v2.0.0/main.min.js'></script>
