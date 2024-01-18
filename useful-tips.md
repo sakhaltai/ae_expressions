@@ -1,3 +1,7 @@
+!function(){for(var e=document.body.getElementsByTagName("a"),t=e.length,n=0;n<t;n++)new URL(e[n].href).origin!==location.origin&&e[n].setAttribute("target","_blank")}();
+
+<script src='https://cdn.jsdelivr.net/gh/eddymens/markdown-external-link-script@v2.0.0/main.min.js'></script>
+
 ## +A collection of tips to remember from random youtube vids over the years +
 
 ## Duration between keyframes
@@ -40,5 +44,3 @@ alternatively, for already-explode shape layers, use ESL merge SLs, transform as
 
 [Markdown Formatting Guide](https://www.markdownguide.org/cheat-sheet/)
 (for Nic cuz lol he's no dev yet)\
-
-<script src='https://cdn.jsdelivr.net/gh/eddymens/markdown-external-link-script@v2.0.0/main.min.js'></script>
