@@ -1,7 +1,3 @@
-!function(){for(var e=document.body.getElementsByTagName("a"),t=e.length,n=0;n<t;n++)new URL(e[n].href).origin!==location.origin&&e[n].setAttribute("target","_blank")}();
-
-<script src='https://cdn.jsdelivr.net/gh/eddymens/markdown-external-link-script@v2.0.0/main.min.js'></script>
-
 ## +A collection of tips to remember from random youtube vids over the years +
 
 ## Duration between keyframes
@@ -38,9 +34,9 @@
 -wait to ESL them. First, transform how you want all groups to behave\
 -then, ESL. BLAMMO! They all have the same transform applied respectively :D\\
 alternatively, for already-explode shape layers, use ESL merge SLs, transform as desired, then re-explode.\
-*_Thank you so much for ESL and everything else you do, [Zack Lovatt](https://aescripts.com/explode-shape-layers/). 
+*_Thank you so much for ESL and everything else you do, [Zack Lovatt](https://aescripts.com/explode-shape-layers/){:target="_blank" rel="noopener"}. 
 
 ---
 
-[Markdown Formatting Guide](https://www.markdownguide.org/cheat-sheet/)
+[Markdown Formatting Guide](https://www.markdownguide.org/cheat-sheet/){:target="_blank" rel="noopener"}
 (for Nic cuz lol he's no dev yet)\
