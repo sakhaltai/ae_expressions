@@ -34,9 +34,9 @@
 -wait to ESL them. First, transform how you want all groups to behave\
 -then, ESL. BLAMMO! They all have the same transform applied respectively :D\\
 alternatively, for already-explode shape layers, use ESL merge SLs, transform as desired, then re-explode.\
-*_Thank you so much for ESL and everything else you do, [Zack Lovatt](https://aescripts.com/explode-shape-layers/){:target="_blank" rel="noopener"}. 
+*_Thank you so much for ESL and everything else you do, [Zack Lovatt](https://aescripts.com/explode-shape-layers/ (ctrl+click since github doesn't allow target=blank))
 
 ---
 
-[Markdown Formatting Guide](https://www.markdownguide.org/cheat-sheet/){:target="_blank" rel="noopener"}
+[Markdown Formatting Guide (ctrl+click since github doesn't allow target=blank)](https://www.markdownguide.org/cheat-sheet/)
 (for Nic cuz lol he's no dev yet)\
