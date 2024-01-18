@@ -1,4 +1,4 @@
-## +A collection of tips to remember from random youtube vids over the years +
+## +A collection of tips to remember from random youtube vids over the years+
 
 ## Duration between keyframes
 
