@@ -32,7 +32,9 @@
 
 -when you import a shape layer made of multiple groups (using overlord)\
 -wait to ESL them. First, transform how you want all groups to behave\
--then, ESL. BLAMMO! They all have the same transform applied respectively :D
+-then, ESL. BLAMMO! They all have the same transform applied respectively :D\\
+alternatively, for already-explode shape layers, use ESL merge SLs, transform as desired, then re-explode.\
+*_Thank you so much for ESL and everything else you do, [Zack Lovatt](https://aescripts.com/explode-shape-layers/). 
 
 ---
 
