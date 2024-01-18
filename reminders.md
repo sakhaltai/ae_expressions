@@ -1,4 +1,4 @@
-## Reminders for fresh AE installs +
+## + Reminders for fresh AE installs +
 
 ## Keyboard Shortcuts
 
@@ -20,7 +20,7 @@
 
 ### asdf
 
--asdf
+  - asdf
 
 ---
 
