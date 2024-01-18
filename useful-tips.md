@@ -3,8 +3,8 @@
 ### Duration between keyframes ###
 to see duration between two keyframes,
 1. deselect all keyframes,
-2. hold shift+alt,
-3. click 1st keyframe, then 2nd.
+2. hold 'shift+alt',
+3. click '1st keyframe' / '2nd keyframe'
 4. in the info panel (I know lol who uses that shit), you'll see a new entry below the first divider!
 ---
 ### Fix wonky interpolation ###
