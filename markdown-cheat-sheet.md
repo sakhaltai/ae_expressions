@@ -124,5 +124,4 @@ line 1\
 line 2\
 Note: doesn't work in ol/ul afaik\
 Note: no need for trailing space!
-<br>
 farfar
