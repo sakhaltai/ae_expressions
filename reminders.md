@@ -24,5 +24,5 @@
 
 ---
 
-[Markdown Formatting Guide (ctrl+click since github doesn't allow target=blank)](https://www.markdownguide.org/cheat-sheet/)
+[Markdown Formatting Guide](https://www.markdownguide.org/cheat-sheet/) <<< make sure you ctrl+click this cuz github doesn't allow target=blank
 (for Nic cuz lol he's no dev yet)\
