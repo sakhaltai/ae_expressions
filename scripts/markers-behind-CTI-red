@@ -1,0 +1,40 @@
+// Makes all markers behind the current time indicator (CTI) for a selected layer red
+
+// Assumes a layer is selected in the After Effects UI
+var myLayer = app.project.activeItem.selectedLayers[0];
+
+if (myLayer) {
+    var currentCTI = app.project.activeItem.time; // Current time indicator's time
+    var markerProperty = myLayer.property("Marker");
+    var numMarkers = markerProperty.numKeys;
+
+    app.beginUndoGroup("Set Red Label for Markers"); // Start of undo group
+
+    for (var i = 1; i <= numMarkers; i++) {
+        var markerTime = markerProperty.keyTime(i);
+        
+        // Check if the marker time is behind the current CTI
+        if (markerTime < currentCTI) {
+            var oldMarkerValue = markerProperty.keyValue(i);
+            var newMarkerValue = new MarkerValue(oldMarkerValue.comment); // Retain the original comment
+            
+            // Set the label to 'red' (integer 1)
+            newMarkerValue.label = 1;
+
+            // Retain other properties if necessary
+            if (oldMarkerValue.duration) newMarkerValue.duration = oldMarkerValue.duration;
+            if (oldMarkerValue.url) newMarkerValue.url = oldMarkerValue.url;
+            if (oldMarkerValue.frameTarget) newMarkerValue.frameTarget = oldMarkerValue.frameTarget;
+            if (oldMarkerValue.cuePointName) newMarkerValue.cuePointName = oldMarkerValue.cuePointName;
+            if (oldMarkerValue.chapter) newMarkerValue.chapter = oldMarkerValue.chapter;
+            if (oldMarkerValue.protectedRegion) newMarkerValue.protectedRegion = oldMarkerValue.protectedRegion;
+
+            // Apply the new marker value at the same time as the old one
+            markerProperty.setValueAtTime(markerTime, newMarkerValue);
+        }
+    }
+
+    app.endUndoGroup(); // End of undo group
+} else {
+    alert("No layer is selected. Please select a layer.");
+}
